@@ -3,9 +3,9 @@ const router = express.Router();
 const {
   getAllTasks,
   createTask,
-  updateTask,
   getTask,
-  deleteTask,
+  updateTask,
+   deleteTask,
 } = require("../controllers/tasks");
 
 router
